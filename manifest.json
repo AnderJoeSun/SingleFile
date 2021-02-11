@@ -106,13 +106,6 @@
 		"persistent": false
 	},
 	"options_page": "extension/ui/pages/options.html",
-	"sidebar_action": {
-		"browser_style": true,
-		"default_title": "SingleFile",
-		"default_panel": "extension/ui/pages/panel.html",
-		"default_icon": "extension/ui/resources/icon_128.png",
-		"open_at_install": false
-	},
 	"options_ui": {
 		"browser_style": true,
 		"page": "extension/ui/pages/options.html",
@@ -163,7 +156,6 @@
 	},
 	"permissions": [
 		"identity",
-		"menus",
 		"nativeMessaging",
 		"clipboardWrite",
 		"contextMenus",
@@ -173,17 +165,10 @@
 		"<all_urls>"
 	],
 	"optional_permissions": [
-		"identity",
-		"nativeMessaging",
 		"bookmarks",
 		"webRequest",
 		"webRequestBlocking"
 	],
-	"browser_specific_settings": {
-		"gecko": {
-			"id": "{531906d3-e22f-4a6c-a102-8057b88a1a63}"
-		}
-	},
 	"devtools_page": "extension/core/devtools/devtools.html",
 	"incognito": "spanning",
 	"manifest_version": 2,
